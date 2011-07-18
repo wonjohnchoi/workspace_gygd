@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.axdt.as3.debug.launcher.type">
+<stringAttribute key="ALT_PATH" value="file://${deploy_loc}/${resource_name_noext}.swf"/>
+<stringAttribute key="COMPILER_CHOICE" value="org.axdt.flex4sdk.compiler"/>
+<booleanAttribute key="FOR_AIR" value="false"/>
+<booleanAttribute key="GATHER_LIBS" value="true"/>
+<booleanAttribute key="OPEN_SWF" value="true"/>
+<stringAttribute key="OPEN_WITH" value="CHOICE_SWFVIEW"/>
+<booleanAttribute key="SEARCH_CONFIG" value="false"/>
+<booleanAttribute key="USE_ALT_PATH" value="false"/>
+<stringAttribute key="target" value="/16_MineCraft/src/Main.as"/>
+</launchConfiguration>

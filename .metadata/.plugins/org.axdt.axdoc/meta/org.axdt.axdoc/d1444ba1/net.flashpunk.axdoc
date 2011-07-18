@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="flashpunk">
+  <types name="Tween" type="c">
+    <asdoc>Base class for all Tween objects, can be added to any Core-extended classes.</asdoc>
+    <members name="PERSIST" type="p">
+      <asdoc>Persistent Tween type, will stop when it finishes.</asdoc>
+    </members>
+  </types>
+  <types name="Mask" type="c">
+    <asdoc>Base class for Entity collision masks.</asdoc>
+    <members name="parent" type="p">
+      <asdoc>The parent Entity of this mask.</asdoc>
+    </members>
+  </types>
+  <types name="Entity" type="c">
+    <asdoc>Main game Entity class updated by World.</asdoc>
+    <members name="visible" type="p">
+      <asdoc>If the Entity should render.</asdoc>
+    </members>
+  </types>
+  <types name="Sfx" type="c">
+    <asdoc>Sound effect object used to play embedded sounds.</asdoc>
+    <members name="complete" type="p">
+      <asdoc>Optional callback function for when the sound finishes playing.</asdoc>
+    </members>
+  </types>
+  <types name="Tweener" type="c">
+    <asdoc>Updateable Tween container.</asdoc>
+    <members name="active" type="p">
+      <asdoc>If the Tweener should update.</asdoc>
+    </members>
+  </types>
+  <types name="Graphic" type="c">
+    <asdoc>Base class for all graphical types that can be drawn by Entity.</asdoc>
+    <members name="active" type="p">
+      <asdoc>If the graphic should update.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

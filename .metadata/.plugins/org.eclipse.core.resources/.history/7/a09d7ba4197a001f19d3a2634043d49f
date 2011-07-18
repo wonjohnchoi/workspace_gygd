@@ -1,0 +1,18 @@
+/*
+ * Tste.cpp
+ *
+ *  Created on: Jun 17, 2010
+ *      Author: 74455031
+ */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout<< cmp(4,3) <<endl;
+bool cmp(int x, int y)
+{
+	return x>y;
+}
+
+}

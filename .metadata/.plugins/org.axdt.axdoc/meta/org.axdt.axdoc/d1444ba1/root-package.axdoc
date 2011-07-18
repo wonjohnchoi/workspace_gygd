@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="source /16_MineCraft/src">
+  <types name="Assets" type="c">
+    <members name="square_red" type="p"/>
+  </types>
+  <types name="Main" type="c">
+    <members name="Main" type="m"/>
+  </types>
+</axdoc:AXPackage>

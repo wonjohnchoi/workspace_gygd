@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;14_Go (Board Game)/src/gygd.go.choi&apos;&#x0D;&#x0A;- Original project: &apos;10_Pentris&apos;&#x0D;&#x0A;- Destination element: &apos;14_Go (Board Game)/src/gygd.go.choi&apos;&#x0D;&#x0A;- Original element: &apos;gygd.pentris.choi.Board.java&apos;" description="Copy compilation unit" destination="=14_Go \(Board Game)/src&lt;gygd.go.choi" element1="/src&lt;gygd.pentris.choi{Board.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1284566269357" units="1" version="1.0"/>
+</session>

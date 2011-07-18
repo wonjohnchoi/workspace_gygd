@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 1 elements(s) to &apos;Pentris/src/Pentris&apos;&#x0D;&#x0A;- Original project: &apos;Minesweeper&apos;&#x0D;&#x0A;- Destination element: &apos;Pentris/src/Pentris&apos;&#x0D;&#x0A;- Original element: &apos;gygd.choi.gui.ButtonChooser.java&apos;" description="Copy compilation unit" destination="=Pentris/src&lt;Pentris" element1="/src&lt;gygd.choi.gui{ButtonChooser.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1281962452026" units="1" version="1.0"/>
+</session>

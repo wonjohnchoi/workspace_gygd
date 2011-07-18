@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="masks">
+  <types name="Grid" type="c">
+    <asdoc>Uses a hash grid to determine collision, faster than&#xA;using hundreds of Entities for tiled levels, etc.</asdoc>
+    <members name="usePositions" type="p">
+      <asdoc>If x/y positions should be used instead of columns/rows.</asdoc>
+    </members>
+  </types>
+  <types name="Pixelmask" type="c">
+    <asdoc>A bitmap mask used for pixel-perfect collision.</asdoc>
+    <members name="threshold" type="p">
+      <asdoc>Alpha threshold of the bitmap used for collision.</asdoc>
+    </members>
+  </types>
+  <types name="Hitbox" type="c">
+    <asdoc>Uses parent's hitbox to determine collision. This class is used&#xA;internally by FlashPunk, you don't need to use this class because&#xA;this is the default behaviour of Entities without a Mask object.</asdoc>
+    <members name="Hitbox" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;width&#x9;&#x9;Width of the hitbox.&#xA;@param&#x9;height&#x9;&#x9;Height of the hitbox.&#xA;@param&#x9;x&#x9;&#x9;&#x9;X offset of the hitbox.&#xA;@param&#x9;y&#x9;&#x9;&#x9;Y offset of the hitbox.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="motion">
+  <types name="LinearMotion" type="c">
+    <asdoc>Determines motion along a line, from one point to another.</asdoc>
+    <members name="LinearMotion" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+  <types name="CircularMotion" type="c">
+    <asdoc>Determines a circular motion.</asdoc>
+    <members name="CircularMotion" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+  <types name="QuadMotion" type="c">
+    <asdoc>Determines motion along a quadratic curve.</asdoc>
+    <members name="QuadMotion" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+  <types name="CubicMotion" type="c">
+    <asdoc>Determines motion along a cubic curve.</asdoc>
+    <members name="CubicMotion" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+  <types name="Motion" type="c">
+    <asdoc>Base class for motion Tweens.</asdoc>
+    <members name="x" type="p">
+      <asdoc>Current x position of the Tween.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

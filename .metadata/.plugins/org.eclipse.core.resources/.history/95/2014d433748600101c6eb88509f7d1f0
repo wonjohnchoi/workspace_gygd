@@ -1,0 +1,138 @@
+import java.awt.AWTException;
+import java.awt.GridLayout;
+import java.awt.Robot;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.InputEvent;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+
+public class Gladiatus extends JFrame implements ActionListener{
+    int expeditionX = 389;
+    int expeditionY = 415;
+    int GrimwoodX = 344;
+    int GrimwoodY = 483;
+    int LynxX = 705;
+    int LynxY = 604;
+    int expeditionTime = 60;
+    int repeated = 10;
+    Robot robot;
+    
+    int arenaX = 445;
+    int arenaY = 348;
+    int arena1X = 841;
+    int arena1Y = 600;
+    int lifeX = 414;
+    int lifeY = 305;
+    
+    
+    JButton button;
+    
+    boolean on = false;
+    
+    public void arena(int repeat){
+        if(repeat==0)return;
+        robot.mouseMove(1189, 5);//gla tab
+        click();
+        robot.mouseMove(lifeX, lifeY);
+        robot.mouseMove(arenaX, arenaY);
+        click();
+        wait(1);
+        robot.mouseMove(arena1X, arena1Y);
+        wait(15*60+1);
+        robot.mouseMove(21, 5); //other tab
+        arena(repeat-1);
+    }
+    
+    public void expedition(String location, String enemy, int repeat){
+        if(repeat==0)return;
+        robot.mouseMove(1189, 5);//gla tab
+        click();
+        robot.mouseMove(expeditionX, expeditionY);
+        if(location.equals("Grimwood")){
+            robot.mouseMove(GrimwoodX, GrimwoodY);
+           
+            click();
+            wait(1);
+            if(enemy.equals("Lynx")){
+                robot.mouseMove(LynxX, LynxY);
+                click();
+                robot.mouseMove(21, 5); //other tab
+                click();
+                wait(expeditionTime+1);
+                expedition(location, enemy, repeat-1);
+                     
+                 
+                 
+                
+            }
+        }
+    }
+    public void click(){
+        robot.mousePress(InputEvent.BUTTON1_MASK);
+        robot.mouseRelease(InputEvent.BUTTON1_MASK);
+    }
+    
+    public void wait(int sec){
+        try {
+            Thread.sleep(sec*1000);
+        } catch (InterruptedException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+    
+    public void initGUI(){
+      //panel that holds buttons
+        JPanel buttonPanel = new JPanel();
+        buttonPanel.setLayout(new GridLayout(1,1));
+         button = new JButton("Start");
+       button.addActionListener(this);
+        buttonPanel.add(button);
+        //add the panel to the frame
+        add(buttonPanel, "Center");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(2, 50);
+        setResizable(false);
+        setVisible(true);
+    }
+    
+    public void start(){
+        initGUI();
+        try {
+            robot = new Robot();
+        } catch (AWTException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        //dungeon("Grimwood", "Lynx");
+    }
+    
+    public static void main(String args[]){
+        Gladiatus gl = new Gladiatus();
+        gl.start();
+    }
+
+    
+
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        // TODO Auto-generated method stub
+        String input = (String) e.getActionCommand();
+        if(input.equals("Start")){
+            //((JButton)e.getSource()).setText("Stop");
+            //button.setText(repeat+"");
+            expedition("Grimwood", "Lynx", repeated);
+            
+        }else{
+            //on = false;
+            //((JButton)e.getSource()).setText("Start");
+        }
+        
+    }
+}

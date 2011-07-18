@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="graphics">
+  <types name="Stamp" type="c">
+    <asdoc>A simple non-transformed, non-animated graphic.</asdoc>
+    <members name="Stamp" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;source&#x9;&#x9;Source image.&#xA;@param&#x9;x&#x9;&#x9;&#x9;X offset.&#xA;@param&#x9;y&#x9;&#x9;&#x9;Y offset.</asdoc>
+    </members>
+  </types>
+  <types name="Spritemap" type="c">
+    <asdoc>Performance-optimized animated Image. Can have multiple animations,&#xA;which draw frames from the provided source image to the screen.</asdoc>
+    <members name="complete" type="p">
+      <asdoc>If the animation has stopped.</asdoc>
+    </members>
+  </types>
+  <types name="TiledImage" type="c">
+    <asdoc>Special Image object that can display blocks of tiles.</asdoc>
+    <members name="TiledImage" type="m">
+      <asdoc>Constructs the TiledImage.&#xA;@param&#x9;texture&#x9;&#x9;Source texture.&#xA;@param&#x9;width&#x9;&#x9;The width of the image (the texture will be drawn to fill this area).&#xA;@param&#x9;height&#x9;&#x9;The height of the image (the texture will be drawn to fill this area).&#xA;@param&#x9;clipRect&#x9;An optional area of the source texture to use (eg. a tile from a tileset).</asdoc>
+    </members>
+  </types>
+  <types name="Text" type="c">
+    <asdoc>Used for drawing text using embedded fonts.</asdoc>
+    <members name="font" type="p">
+      <asdoc>The font to assign to new Text objects.</asdoc>
+    </members>
+  </types>
+  <types name="Emitter" type="c">
+    <asdoc>Particle emitter used for emitting and rendering particle sprites.&#xA;Good rendering performance with large amounts of particles.</asdoc>
+    <members name="Emitter" type="m">
+      <asdoc>Constructor. Sets the source image to use for newly added particle types.&#xA;@param&#x9;source&#x9;&#x9;&#x9;Source image.&#xA;@param&#x9;frameWidth&#x9;&#x9;Frame width.&#xA;@param&#x9;frameHeight&#x9;&#x9;Frame height.</asdoc>
+    </members>
+  </types>
+  <types name="Image" type="c">
+    <asdoc>Performance-optimized non-animated image. Can be drawn to the screen with transformations.</asdoc>
+    <members name="angle" type="p">
+      <asdoc>Rotation of the image, in degrees.</asdoc>
+    </members>
+  </types>
+  <types name="Backdrop" type="c">
+    <asdoc>A background texture that can be repeated horizontally and vertically&#xA;when drawn. Really useful for parallax backgrounds, textures, etc.</asdoc>
+    <members name="Backdrop" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;texture&#x9;&#x9;Source texture.&#xA;@param&#x9;repeatX&#x9;&#x9;Repeat horizontally.&#xA;@param&#x9;repeatY&#x9;&#x9;Repeat vertically.</asdoc>
+    </members>
+  </types>
+  <types name="Anim" type="c">
+    <asdoc>Template used by Spritemap to define animations. Don't create&#xA;these yourself, instead you can fetch them with Spritemap's add().</asdoc>
+    <members name="Anim" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;name&#x9;&#x9;Animation name.&#xA;@param&#x9;frames&#x9;&#x9;Array of frame indices to animate.&#xA;@param&#x9;frameRate&#x9;Animation speed.&#xA;@param&#x9;loop&#x9;&#x9;If the animation should loop.</asdoc>
+    </members>
+  </types>
+  <types name="PreRotation" type="c">
+    <asdoc>Creates a pre-rotated Image strip to increase runtime performance for rotating graphics.</asdoc>
+    <members name="frameAngle" type="p">
+      <asdoc>Current angle to fetch the pre-rotated frame from.</asdoc>
+    </members>
+  </types>
+  <types name="Particle" type="c">
+    <asdoc>Used by the Emitter class to track an existing Particle.</asdoc>
+    <members name="Particle" type="m">
+      <asdoc>Constructor.</asdoc>
+    </members>
+  </types>
+  <types name="ParticleType" type="c">
+    <asdoc>Template used to define a particle type used by the Emitter class. Instead&#xA;of creating this object yourself, fetch one with Emitter's add() function.</asdoc>
+    <members name="ParticleType" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;name&#x9;&#x9;&#x9;Name of the particle type.&#xA;@param&#x9;frames&#x9;&#x9;&#x9;Array of frame indices to animate through.&#xA;@param&#x9;source&#x9;&#x9;&#x9;Source image.&#xA;@param&#x9;frameWidth&#x9;&#x9;Frame width.&#xA;@param&#x9;frameHeight&#x9;&#x9;Frame height.&#xA;@param&#x9;frameCount&#x9;&#x9;Frame count.</asdoc>
+    </members>
+  </types>
+  <types name="TiledSpritemap" type="c">
+    <asdoc>Special Spritemap object that can display blocks of animated sprites.</asdoc>
+    <members name="TiledSpritemap" type="m">
+      <asdoc>Constructs the tiled spritemap.&#xA;@param&#x9;source&#x9;&#x9;&#x9;Source image.&#xA;@param&#x9;frameWidth&#x9;&#x9;Frame width.&#xA;@param&#x9;frameHeight&#x9;&#x9;Frame height.&#x9;&#xA;@param&#x9;width&#x9;&#x9;&#x9;Width of the block to render.&#xA;@param&#x9;height&#x9;&#x9;&#x9;Height of the block to render.&#xA;@param&#x9;callback&#x9;&#x9;Optional callback function for animation end.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

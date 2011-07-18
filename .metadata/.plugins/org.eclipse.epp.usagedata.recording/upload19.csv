@@ -1,0 +1,272 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.cdt.debug.ui.memory.transport,1.2.0.201002161416,"org.eclipse.cdt.debug.ui.memory.transport",1276825934524
+stopped,bundle,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui",1276825934838
+stopped,bundle,org.python.pydev.jython,1.5.7.2010050621,"org.python.pydev.jython",1276825934839
+stopped,bundle,org.python.pydev.parser,1.5.7.2010050621,"org.python.pydev.parser",1276825934842
+stopped,bundle,org.python.pydev.core,1.5.7.2010050621,"org.python.pydev.core",1276825934842
+stopped,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1276825934842
+stopped,bundle,org.eclipse.mylyn.commons.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.commons.ui",1276825934842
+stopped,bundle,org.eclipse.mylyn.wikitext.ui,1.2.1.v20100222-0100-e3x,"org.eclipse.mylyn.wikitext.ui",1276825934843
+stopped,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1276825934843
+stopped,bundle,org.eclipse.test,3.3.0,"org.eclipse.test",1276825934843
+stopped,bundle,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.resources",1276825934843
+stopped,bundle,org.eclipse.wst.common.snippets,1.1.301.v201001280015,"org.eclipse.wst.common.snippets",1276825934843
+stopped,bundle,org.eclipse.rse.subsystems.shells.core,3.1.0.v200905272300,"org.eclipse.rse.subsystems.shells.core",1276825934843
+stopped,bundle,org.eclipse.rse.subsystems.files.core,3.1.1.v200909160005,"org.eclipse.rse.subsystems.files.core",1276825934843
+stopped,bundle,org.eclipse.rse.ui,3.1.1.v200909160005,"org.eclipse.rse.ui",1276825934843
+stopped,bundle,org.eclipse.ui.workbench.texteditor,3.5.1.r352_v20100105,"org.eclipse.ui.workbench.texteditor",1276825934888
+stopped,bundle,org.eclipse.compare.core,3.5.0.I20090430-0408,"org.eclipse.compare.core",1276825934888
+stopped,bundle,org.eclipse.emf.edit.ui,2.5.0.v200906151043,"org.eclipse.emf.edit.ui",1276825934888
+stopped,bundle,org.eclipse.gef,3.5.1.v20090910-2020,"org.eclipse.gef",1276825934888
+stopped,bundle,org.eclipse.emf.common.ui,2.5.0.v200906151043,"org.eclipse.emf.common.ui",1276825934889
+stopped,bundle,org.eclipse.epp.usagedata.ui,1.1.1.R201001291118,"org.eclipse.epp.usagedata.ui",1276825934889
+activated,perspective,org.python.pydev,,"org.python.pydev.ui.PythonPerspective",1276871075022
+started,bundle,org.eclipse.osgi,3.5.2.R35x_v20100126,"org.eclipse.osgi",1276871075022
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.101.R35x_v20090807-1100,"org.eclipse.equinox.simpleconfigurator",1276871075069
+started,bundle,com.ibm.icu,4.0.1.v20090822,"com.ibm.icu",1276871075069
+started,bundle,org.eclipse.core.contenttype,3.4.1.R35x_v20090826-0451,"org.eclipse.core.contenttype",1276871075069
+started,bundle,org.eclipse.core.databinding.observable,1.2.0.M20090902-0800,"org.eclipse.core.databinding.observable",1276871075085
+started,bundle,org.eclipse.core.expressions,3.4.101.R35x_v20100209,"org.eclipse.core.expressions",1276871075085
+started,bundle,org.eclipse.core.filebuffers,3.5.0.v20090526-2000,"org.eclipse.core.filebuffers",1276871075085
+started,bundle,org.eclipse.core.filesystem,1.2.1.R35x_v20091203-1235,"org.eclipse.core.filesystem",1276871075085
+started,bundle,org.eclipse.core.jobs,3.4.100.v20090429-1800,"org.eclipse.core.jobs",1276871075116
+started,bundle,org.eclipse.core.net,1.2.1.r35x_20090812-1200,"org.eclipse.core.net",1276871075116
+started,bundle,org.eclipse.core.resources,3.5.2.R35x_v20091203-1235,"org.eclipse.core.resources",1276871075116
+started,bundle,org.eclipse.core.runtime,3.5.0.v20090525,"org.eclipse.core.runtime",1276871075116
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.0.v20090413,"org.eclipse.core.runtime.compatibility",1276871075444
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.100.v20090413,"org.eclipse.core.runtime.compatibility.auth",1276871075444
+started,bundle,org.eclipse.ecf,3.0.0.v20090831-1906,"org.eclipse.ecf",1276871075444
+started,bundle,org.eclipse.ecf.filetransfer,3.0.0.v20090831-1906,"org.eclipse.ecf.filetransfer",1276871075444
+started,bundle,org.eclipse.ecf.identity,3.0.0.v20090831-1906,"org.eclipse.ecf.identity",1276871075444
+started,bundle,org.eclipse.ecf.provider.filetransfer,3.0.1.v20090831-1906,"org.eclipse.ecf.provider.filetransfer",1276871075444
+started,bundle,org.eclipse.ecf.provider.filetransfer.httpclient,3.0.1.v20090831-1906,"org.eclipse.ecf.provider.filetransfer.httpclient",1276871075444
+started,bundle,org.eclipse.epp.usagedata.gathering,1.1.1.R201001291118,"org.eclipse.epp.usagedata.gathering",1276871075444
+started,bundle,org.eclipse.epp.usagedata.recording,1.1.1.R201001291118,"org.eclipse.epp.usagedata.recording",1276871075444
+started,bundle,org.eclipse.equinox.app,1.2.1.R35x_v20091203,"org.eclipse.equinox.app",1276871075444
+started,bundle,org.eclipse.equinox.common,3.5.1.R35x_v20090807-1100,"org.eclipse.equinox.common",1276871075444
+started,bundle,org.eclipse.equinox.ds,1.1.1.R35x_v20090806,"org.eclipse.equinox.ds",1276871075475
+started,bundle,org.eclipse.equinox.frameworkadmin,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin",1276871076257
+started,bundle,org.eclipse.equinox.frameworkadmin.equinox,1.0.101.R35x_v20091214,"org.eclipse.equinox.frameworkadmin.equinox",1276871076288
+started,bundle,org.eclipse.equinox.p2.artifact.repository,1.0.101.R35x_v20090721,"org.eclipse.equinox.p2.artifact.repository",1276871076288
+started,bundle,org.eclipse.equinox.p2.core,1.0.101.R35x_v20090819,"org.eclipse.equinox.p2.core",1276871076288
+started,bundle,org.eclipse.equinox.p2.director,1.0.101.R35x_v20100112,"org.eclipse.equinox.p2.director",1276871076303
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.100.v20090525,"org.eclipse.equinox.p2.directorywatcher",1276871076303
+started,bundle,org.eclipse.equinox.p2.engine,1.0.102.R35x_v20091117,"org.eclipse.equinox.p2.engine",1276871076303
+started,bundle,org.eclipse.equinox.p2.exemplarysetup,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.exemplarysetup",1276871076319
+started,bundle,org.eclipse.equinox.p2.extensionlocation,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.extensionlocation",1276871076319
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.garbagecollector",1276871076319
+started,bundle,org.eclipse.equinox.p2.metadata,1.0.101.R35x_v20100112,"org.eclipse.equinox.p2.metadata",1276871076319
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.0.101.R35x_v20090812,"org.eclipse.equinox.p2.metadata.repository",1276871076319
+started,bundle,org.eclipse.equinox.p2.publisher,1.0.1.R35x_20100105,"org.eclipse.equinox.p2.publisher",1276871076319
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.reconciler.dropins",1276871076319
+started,bundle,org.eclipse.equinox.p2.repository,1.0.1.R35x_v20100105,"org.eclipse.equinox.p2.repository",1276871076319
+started,bundle,org.eclipse.equinox.p2.touchpoint.eclipse,1.0.101.R35x_20090820-1821,"org.eclipse.equinox.p2.touchpoint.eclipse",1276871076319
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.scheduler",1276871076319
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.0.v20090520-1905,"org.eclipse.equinox.p2.updatechecker",1276871076335
+started,bundle,org.eclipse.equinox.preferences,3.2.301.R35x_v20091117,"org.eclipse.equinox.preferences",1276871076335
+started,bundle,org.eclipse.equinox.registry,3.4.100.v20090520-1800,"org.eclipse.equinox.registry",1276871076335
+started,bundle,org.eclipse.equinox.security,1.0.100.v20090520-1800,"org.eclipse.equinox.security",1276871076335
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,1.0.101.R35x_v20100209,"org.eclipse.equinox.simpleconfigurator.manipulator",1276871076335
+started,bundle,org.eclipse.equinox.util,1.0.100.v20090520-1800,"org.eclipse.equinox.util",1276871076335
+started,bundle,org.eclipse.help,3.4.1.v20090805_35x,"org.eclipse.help",1276871076335
+started,bundle,org.eclipse.jface,3.5.2.M20100120-0800,"org.eclipse.jface",1276871076350
+started,bundle,org.eclipse.team.core,3.5.1.r35x_20100113-0800,"org.eclipse.team.core",1276871076350
+started,bundle,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui",1276871076350
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1276871076350
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1276871076366
+started,bundle,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.ide",1276871076366
+started,bundle,org.eclipse.ui.navigator,3.4.2.M20100120-0800,"org.eclipse.ui.navigator",1276871076366
+started,bundle,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.resources",1276871076366
+started,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1276871076366
+started,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1276871076366
+started,bundle,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"org.eclipse.ui.workbench",1276871076366
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.1.r352_v20100105,"org.eclipse.ui.workbench.texteditor",1276871076366
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1276871076366
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1276871076366
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1276871076366
+started,bundle,com.python.pydev.analysis,1.5.7.2010050621,"com.python.pydev.analysis",1276871076366
+started,bundle,org.eclipse.mylyn.commons.net,3.3.0.v20091013-0200-e3x,"org.eclipse.mylyn.commons.net",1276871076366
+started,bundle,org.eclipse.mylyn.monitor.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.monitor.ui",1276871076366
+started,bundle,org.python.pydev,1.5.7.2010050621,"org.python.pydev",1276871076366
+started,bundle,org.python.pydev.core,1.5.7.2010050621,"org.python.pydev.core",1276871076366
+started,bundle,org.python.pydev.parser,1.5.7.2010050621,"org.python.pydev.parser",1276871076366
+os,sysinfo,,,"win32",1276871076382
+arch,sysinfo,,,"x86",1276871076382
+ws,sysinfo,,,"win32",1276871076382
+locale,sysinfo,,,"en_US",1276871076382
+processors,sysinfo,,,"1",1276871076382
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1276871076382
+java.runtime.version,sysinfo,,,"1.6.0_20-b02",1276871076382
+java.specification.name,sysinfo,,,"Java Platform API Specification",1276871076382
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1276871076382
+java.specification.version,sysinfo,,,"1.6",1276871076382
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1276871076382
+java.version,sysinfo,,,"1.6.0_20",1276871076382
+java.vm.info,sysinfo,,,"mixed mode",1276871076382
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1276871076382
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1276871076382
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1276871076382
+java.vm.specification.version,sysinfo,,,"1.0",1276871076382
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1276871076382
+java.vm.version,sysinfo,,,"16.3-b01",1276871076382
+started,bundle,org.eclipse.mylyn.commons.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.commons.ui",1276871076491
+started,bundle,org.eclipse.jdt.core,3.5.2.v_981_R35x,"org.eclipse.jdt.core",1276871076882
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1276871077007
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1276871077428
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1276871078522
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20090603,"org.eclipse.jdt.core.manipulation",1276871078678
+started,bundle,org.eclipse.mylyn.context.core,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.context.core",1276871078710
+started,bundle,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui",1276871078741
+started,bundle,org.eclipse.mylyn.context.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.context.ui",1276871078835
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871080053
+started,bundle,org.eclipse.mylyn.tasks.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.tasks.ui",1276871080147
+started,bundle,org.eclipse.mylyn.team.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.team.ui",1276871080225
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1276871080616
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1276871080632
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1276871080725
+started,bundle,org.eclipse.team.cvs.ui,3.3.202.r35x_20090930-0800,"org.eclipse.team.cvs.ui",1276871081069
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871091178
+started,bundle,org.eclipse.compare,3.5.2.r35x_20100113-0800,"org.eclipse.compare",1276871095303
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871097116
+started,bundle,org.eclipse.debug.core,3.5.1.v20091103_r352,"org.eclipse.debug.core",1276871109053
+started,bundle,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui",1276871109209
+started,bundle,org.eclipse.cdt.core,5.1.2.201002161416,"org.eclipse.cdt.core",1276871109709
+started,bundle,org.eclipse.cdt.core.tests,5.1.2.201002161416,"org.eclipse.cdt.core.tests",1276871109803
+started,bundle,org.eclipse.cdt.debug.core,6.0.0.201002161416,"org.eclipse.cdt.debug.core",1276871109928
+started,bundle,org.eclipse.cdt.debug.ui,6.0.0.201002161416,"org.eclipse.cdt.debug.ui",1276871109944
+started,bundle,org.python.pydev.customizations,1.5.7.2010050621,"org.python.pydev.customizations",1276871109991
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871110741
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.properties",1276871110788
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871115116
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871115194
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1276871116038
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871116538
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871300927
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276871301896
+started,bundle,org.python.pydev.jython,1.5.7.2010050621,"org.python.pydev.jython",1276871326317
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871326974
+started,bundle,com.python.pydev,1.5.7.2010050621,"com.python.pydev",1276871342380
+started,bundle,com.python.pydev.refactoring,1.5.7.2010050621,"com.python.pydev.refactoring",1276871342442
+started,bundle,org.python.pydev.debug,1.5.7.2010050621,"org.python.pydev.debug",1276871342521
+started,bundle,org.python.pydev.django,1.5.7.2010050621,"org.python.pydev.django",1276871342552
+started,bundle,org.python.pydev.refactoring,1.5.7.2010050621,"org.python.pydev.refactoring",1276871342661
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1276871342708
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring",1276871342724
+started,bundle,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search",1276871342755
+started,bundle,com.python.pydev.codecompletion,1.5.7.2010050621,"com.python.pydev.codecompletion",1276871343489
+started,bundle,org.eclipse.compare.core,3.5.0.I20090430-0408,"org.eclipse.compare.core",1276871344364
+opened,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871344442
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1276871344864
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871345536
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871345958
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871347489
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276871350505
+opened,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871350833
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871351208
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871351849
+started,bundle,org.eclipse.mylyn.java.tasks,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.java.tasks",1276871351895
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.selectAll",1276871351927
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE44.py",1276871352005
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1276871352239
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871353239
+closed,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871353239
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.selectAll",1276871353942
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1276871354552
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871356177
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871357114
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.undo",1276871363286
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871365817
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871366677
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871379395
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871384692
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871386426
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871388161
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871394458
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871404754
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871405129
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871409598
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871409926
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871414083
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871422911
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871427004
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871433036
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871442973
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871448989
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871453379
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871463067
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871466879
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871467129
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871473692
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871473957
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871477332
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871478004
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871480770
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871504676
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871510613
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871517738
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871528519
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871534660
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871543363
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871551175
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871556254
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871562160
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1276871564425
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1276871564738
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871572191
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871581175
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871588597
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871594816
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871601581
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871609347
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871619409
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871621472
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871621722
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871637394
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871642612
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871642925
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871651644
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871660972
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871667159
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871676331
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871758049
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871765002
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871765815
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871768580
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871770455
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871770737
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871783971
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871786533
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871787690
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871795174
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871802330
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871808830
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871815580
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871820752
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871827142
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871833174
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871839189
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871839439
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871845611
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871845752
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276871851048
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871851330
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871854252
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871856142
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.201002161416,"org.eclipse.cdt.debug.mi.ui",1276871857361
+started,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.201002161416,"org.eclipse.cdt.debug.mi.core",1276871857455
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871861361
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871867252
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1276871867923
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276871877158
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871887080
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871893111
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871894814
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871979860
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871990251
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276871992016
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276871993188
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276872001844
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276872007438
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276872011704
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276872016001
+error,log,,,"Unable to resolve module for:L/PE/src/PE/PE38.py",1276872016219

@@ -1,0 +1,106 @@
+'''
+@author: Wonjohn Choi
+'''
+
+import wx
+
+class GUI(wx.Frame):
+    def __init__(self):
+        self.SetVariables()
+        
+        wx.Frame.__init__(self, None, -1, self.title, size = (400, 500))
+        self.textField = wx.TextCtrl(self,1, style=wx.TE_MULTILINE)
+        
+        self.CreateStatusBar()
+        self.SetStatusText("status bar")
+
+        filemenu = wx.Menu()
+        filemenu.Append(self.ID_ABOUT, "About", "Information about this program")
+        filemenu.AppendSeparator()
+        filemenu.Append(self.ID_OPEN, "Open", "Open")
+        filemenu.Append(self.ID_SAVE, "Save", "Save") 
+        filemenu.Append(self.ID_EXIT, "E&xit\tAlt-X", "Exit")
+
+        menuBar = wx.MenuBar()
+        menuBar.Append(filemenu, "File")
+        
+        self.SetMenuBar(menuBar)
+        
+        wx.EVT_MENU(self, self.ID_ABOUT, self.OnAbout)
+        wx.EVT_MENU(self, self.ID_OPEN, self.OnOpen)
+        wx.EVT_MENU(self, self.ID_SAVE, self.OnSave)
+        wx.EVT_MENU(self, self.ID_EXIT, self.OnExit)
+        #wx.EVT_CLOSE(self, self.OnExit) 
+    
+        self.Show(True)
+        
+    def SetVariables(self):
+        self.ID_ABOUT = 1000
+        self.ID_EXIT = 1001
+        self.ID_OPEN = 1002
+        self.ID_SAVE = 1003
+        self.title = "L. IDE"
+        self.dir = '.'
+        self.originalText = ''
+        
+        
+    def OnAbout(self, e):
+        text = '\"'+self.title+'\" - the Light IDE - developed by Wonjohn Choi'
+        
+        dialog = wx.MessageDialog(self, text, "About", wx.OK) 
+        dialog.ShowModal()
+        dialog.Destroy()
+
+    def OnExit(self, e):
+     
+        option= self.textField.GetValue() != self.originalText and 
+        self.promptSave('Would you like to save before closing?')
+                
+                
+        if(option):
+            self.OnSave(True)
+            
+        self.Close(True)
+        
+    def promptSave(self, message):
+        
+        dialog = wx.MessageDialog(self, message, 'Question Board', wx.YES_NO)
+        
+        option = False
+        if dialog.ShowModal() == wx.ID_YES:
+            option = True
+        
+        dialog.Destroy()
+        
+        return option
+            
+
+    def OnSave(self, e):
+        dialog=wx.FileDialog(self, "Save", self.dir, "", "*.*", wx.SAVE)
+        
+        if dialog.ShowModal() == wx.ID_OK:
+            self.filename=dialog.GetFilename();
+            self.dir=dialog.GetDirectory();
+            
+            f=open(self.dir+"/"+self.filename, "w")
+            f.write(self.textField.GetValue())
+            f.close()
+
+        dialog.Destroy()
+
+    def OnOpen(self, e):
+        dialog=wx.FileDialog(self, "Choose a file", self.dir, "", "*.*", wx.OPEN)
+        
+        if dialog.ShowModal() == wx.ID_OK:
+            self.filename=dialog.GetFilename()
+            self.dir=dialog.GetDirectory()
+            
+            f=open(self.dir+"/"+self.filename, "r")
+            self.textField.SetValue(f.read())
+            self.originalText = self.textField.GetValue()
+            f.close()
+        dialog.Destroy()
+
+app = wx.App(False)
+gui = GUI()
+app.MainLoop()

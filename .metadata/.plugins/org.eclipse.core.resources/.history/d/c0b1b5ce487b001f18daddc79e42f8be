@@ -1,0 +1,11 @@
+'''
+Created on 2010. 6. 19.
+
+@author: Wonjohn Choi
+'''
+
+class fraction():
+    def __init__(self, numerator, denominator):
+        self.numerator=numerator
+        self.denominator=denominator
+    

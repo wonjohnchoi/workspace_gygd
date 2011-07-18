@@ -1,0 +1,14 @@
+/*
+ * Test.cpp
+ *
+ *  Created on: 2010. 6. 17.
+ *      Author: user
+ */
+
+int main()
+{
+	for(int x=0;x<10;x++)
+	{
+		cout <<x << endl;
+	}
+}

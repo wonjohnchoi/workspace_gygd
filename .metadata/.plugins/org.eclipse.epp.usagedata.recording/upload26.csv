@@ -1,0 +1,276 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914057545
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914074892
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914085434
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914107971
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914118617
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914139448
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914185246
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914356076
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914359754
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914361897
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914361992
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914366079
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914366810
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914370875
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914373637
+error,log,,,"Unhandled event loop exception",1276914375124
+error,log,,,"Unhandled event loop exception",1276914378185
+error,log,,,"Unhandled event loop exception",1276914380804
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914385774
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914387518
+error,log,,,"Unhandled event loop exception",1276914388097
+error,log,,,"Unhandled event loop exception",1276914388620
+error,log,,,"Unhandled event loop exception",1276914391512
+error,log,,,"Unhandled event loop exception",1276914394543
+error,log,,,"Unhandled event loop exception",1276914395613
+error,log,,,"Unhandled event loop exception",1276914396274
+error,log,,,"Unhandled event loop exception",1276914397622
+error,log,,,"Unhandled event loop exception",1276914398105
+error,log,,,"Unhandled event loop exception",1276914398161
+error,log,,,"Unhandled event loop exception",1276914398305
+error,log,,,"Unhandled event loop exception",1276914398926
+error,log,,,"Unhandled event loop exception",1276914399690
+error,log,,,"Unhandled event loop exception",1276914399934
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914401172
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914401179
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914401296
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914408914
+error,log,,,"Unhandled event loop exception",1276914409055
+error,log,,,"Unhandled event loop exception",1276914409801
+error,log,,,"Unhandled event loop exception",1276914410303
+error,log,,,"Unhandled event loop exception",1276914410729
+error,log,,,"Unhandled event loop exception",1276914411105
+error,log,,,"Unhandled event loop exception",1276914411508
+error,log,,,"Unhandled event loop exception",1276914411971
+error,log,,,"Unhandled event loop exception",1276914412367
+error,log,,,"Unhandled event loop exception",1276914412737
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914414297
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914425335
+error,log,,,"Unhandled event loop exception",1276914425557
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914430815
+activated,perspective,org.python.pydev,,"org.python.pydev.ui.PythonPerspective",1276914447944
+started,bundle,org.eclipse.osgi,3.5.2.R35x_v20100126,"org.eclipse.osgi",1276914447947
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.101.R35x_v20090807-1100,"org.eclipse.equinox.simpleconfigurator",1276914447947
+started,bundle,com.ibm.icu,4.0.1.v20090822,"com.ibm.icu",1276914447947
+started,bundle,org.eclipse.compare.core,3.5.0.I20090430-0408,"org.eclipse.compare.core",1276914447947
+started,bundle,org.eclipse.core.contenttype,3.4.1.R35x_v20090826-0451,"org.eclipse.core.contenttype",1276914447947
+started,bundle,org.eclipse.core.databinding.observable,1.2.0.M20090902-0800,"org.eclipse.core.databinding.observable",1276914447947
+started,bundle,org.eclipse.core.expressions,3.4.101.R35x_v20100209,"org.eclipse.core.expressions",1276914447947
+started,bundle,org.eclipse.core.filebuffers,3.5.0.v20090526-2000,"org.eclipse.core.filebuffers",1276914447947
+started,bundle,org.eclipse.core.filesystem,1.2.1.R35x_v20091203-1235,"org.eclipse.core.filesystem",1276914447947
+started,bundle,org.eclipse.core.jobs,3.4.100.v20090429-1800,"org.eclipse.core.jobs",1276914447947
+started,bundle,org.eclipse.core.net,1.2.1.r35x_20090812-1200,"org.eclipse.core.net",1276914447947
+started,bundle,org.eclipse.core.resources,3.5.2.R35x_v20091203-1235,"org.eclipse.core.resources",1276914447947
+started,bundle,org.eclipse.core.runtime,3.5.0.v20090525,"org.eclipse.core.runtime",1276914447947
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.0.v20090413,"org.eclipse.core.runtime.compatibility",1276914447947
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.100.v20090413,"org.eclipse.core.runtime.compatibility.auth",1276914447947
+started,bundle,org.eclipse.core.variables,3.2.200.v20090521,"org.eclipse.core.variables",1276914447947
+started,bundle,org.eclipse.debug.core,3.5.1.v20091103_r352,"org.eclipse.debug.core",1276914447947
+started,bundle,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui",1276914447947
+started,bundle,org.eclipse.ecf,3.0.0.v20090831-1906,"org.eclipse.ecf",1276914447947
+started,bundle,org.eclipse.ecf.filetransfer,3.0.0.v20090831-1906,"org.eclipse.ecf.filetransfer",1276914447947
+started,bundle,org.eclipse.ecf.identity,3.0.0.v20090831-1906,"org.eclipse.ecf.identity",1276914447947
+started,bundle,org.eclipse.ecf.provider.filetransfer,3.0.1.v20090831-1906,"org.eclipse.ecf.provider.filetransfer",1276914447947
+started,bundle,org.eclipse.ecf.provider.filetransfer.httpclient,3.0.1.v20090831-1906,"org.eclipse.ecf.provider.filetransfer.httpclient",1276914447947
+started,bundle,org.eclipse.epp.usagedata.gathering,1.1.1.R201001291118,"org.eclipse.epp.usagedata.gathering",1276914447947
+started,bundle,org.eclipse.epp.usagedata.recording,1.1.1.R201001291118,"org.eclipse.epp.usagedata.recording",1276914447947
+started,bundle,org.eclipse.equinox.app,1.2.1.R35x_v20091203,"org.eclipse.equinox.app",1276914447947
+started,bundle,org.eclipse.equinox.common,3.5.1.R35x_v20090807-1100,"org.eclipse.equinox.common",1276914447947
+started,bundle,org.eclipse.equinox.ds,1.1.1.R35x_v20090806,"org.eclipse.equinox.ds",1276914447947
+started,bundle,org.eclipse.equinox.frameworkadmin,1.0.100.v20090520-1905,"org.eclipse.equinox.frameworkadmin",1276914447947
+started,bundle,org.eclipse.equinox.frameworkadmin.equinox,1.0.101.R35x_v20091214,"org.eclipse.equinox.frameworkadmin.equinox",1276914447947
+started,bundle,org.eclipse.equinox.p2.core,1.0.101.R35x_v20090819,"org.eclipse.equinox.p2.core",1276914447947
+started,bundle,org.eclipse.equinox.p2.director,1.0.101.R35x_v20100112,"org.eclipse.equinox.p2.director",1276914447947
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.100.v20090525,"org.eclipse.equinox.p2.directorywatcher",1276914447947
+started,bundle,org.eclipse.equinox.p2.engine,1.0.102.R35x_v20091117,"org.eclipse.equinox.p2.engine",1276914447947
+started,bundle,org.eclipse.equinox.p2.exemplarysetup,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.exemplarysetup",1276914447947
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.garbagecollector",1276914447947
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.0.101.R35x_v20090812,"org.eclipse.equinox.p2.metadata.repository",1276914447947
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.0.100.v20090520-1905,"org.eclipse.equinox.p2.reconciler.dropins",1276914447947
+started,bundle,org.eclipse.equinox.p2.repository,1.0.1.R35x_v20100105,"org.eclipse.equinox.p2.repository",1276914447947
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.0.v20090520-1905,"org.eclipse.equinox.p2.ui.sdk.scheduler",1276914447947
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.0.v20090520-1905,"org.eclipse.equinox.p2.updatechecker",1276914447947
+started,bundle,org.eclipse.equinox.preferences,3.2.301.R35x_v20091117,"org.eclipse.equinox.preferences",1276914447947
+started,bundle,org.eclipse.equinox.registry,3.4.100.v20090520-1800,"org.eclipse.equinox.registry",1276914447947
+started,bundle,org.eclipse.equinox.security,1.0.100.v20090520-1800,"org.eclipse.equinox.security",1276914447947
+started,bundle,org.eclipse.equinox.simpleconfigurator.manipulator,1.0.101.R35x_v20100209,"org.eclipse.equinox.simpleconfigurator.manipulator",1276914447947
+started,bundle,org.eclipse.equinox.util,1.0.100.v20090520-1800,"org.eclipse.equinox.util",1276914447947
+started,bundle,org.eclipse.help,3.4.1.v20090805_35x,"org.eclipse.help",1276914447947
+started,bundle,org.eclipse.jdt.apt.core,3.3.202.R35x_v20091130-2300,"org.eclipse.jdt.apt.core",1276914447948
+started,bundle,org.eclipse.jdt.apt.pluggable.core,1.0.201.R35x_v20090925-1100,"org.eclipse.jdt.apt.pluggable.core",1276914447948
+started,bundle,org.eclipse.jdt.core,3.5.2.v_981_R35x,"org.eclipse.jdt.core",1276914447948
+started,bundle,org.eclipse.jdt.core.manipulation,1.3.0.v20090603,"org.eclipse.jdt.core.manipulation",1276914447948
+started,bundle,org.eclipse.jdt.launching,3.5.1.v20100108_r352,"org.eclipse.jdt.launching",1276914447948
+started,bundle,org.eclipse.jdt.ui,3.5.2.r352_v20100106-0800,"org.eclipse.jdt.ui",1276914447948
+started,bundle,org.eclipse.jface,3.5.2.M20100120-0800,"org.eclipse.jface",1276914447948
+started,bundle,org.eclipse.jsch.core,1.1.100.I20090430-0408,"org.eclipse.jsch.core",1276914447948
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.0.v20090513-2000,"org.eclipse.ltk.core.refactoring",1276914447948
+started,bundle,org.eclipse.ltk.ui.refactoring,3.4.101.r352_v20100209,"org.eclipse.ltk.ui.refactoring",1276914447948
+started,bundle,org.eclipse.search,3.5.1.r351_v20090708-0800,"org.eclipse.search",1276914447948
+started,bundle,org.eclipse.team.core,3.5.1.r35x_20100113-0800,"org.eclipse.team.core",1276914447948
+started,bundle,org.eclipse.team.cvs.core,3.3.200.I20090430-0408,"org.eclipse.team.cvs.core",1276914447948
+started,bundle,org.eclipse.team.ui,3.5.0.I20090430-0408,"org.eclipse.team.ui",1276914447948
+started,bundle,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui",1276914447948
+started,bundle,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console",1276914447948
+started,bundle,org.eclipse.ui.editors,3.5.0.v20090527-2000,"org.eclipse.ui.editors",1276914447948
+started,bundle,org.eclipse.ui.forms,3.4.1.v20090714_35x,"org.eclipse.ui.forms",1276914447948
+started,bundle,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.ide",1276914447948
+started,bundle,org.eclipse.ui.navigator,3.4.2.M20100120-0800,"org.eclipse.ui.navigator",1276914447948
+started,bundle,org.eclipse.ui.navigator.resources,3.4.1.M20090826-0800,"org.eclipse.ui.navigator.resources",1276914447948
+started,bundle,org.eclipse.ui.net,1.2.1.r35x_20090812-1200,"org.eclipse.ui.net",1276914447948
+started,bundle,org.eclipse.ui.views,3.4.1.M20090826-0800,"org.eclipse.ui.views",1276914447948
+started,bundle,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"org.eclipse.ui.workbench",1276914447948
+started,bundle,org.eclipse.ui.workbench.texteditor,3.5.1.r352_v20100105,"org.eclipse.ui.workbench.texteditor",1276914447948
+started,bundle,org.eclipse.update.configurator,3.3.0.v20090312,"org.eclipse.update.configurator",1276914447948
+started,bundle,org.eclipse.update.core,3.2.300.v20090525,"org.eclipse.update.core",1276914447948
+started,bundle,org.eclipse.update.scheduler,3.2.200.v20081127,"org.eclipse.update.scheduler",1276914447948
+started,bundle,com.python.pydev,1.5.7.2010050621,"com.python.pydev",1276914447948
+started,bundle,com.python.pydev.analysis,1.5.7.2010050621,"com.python.pydev.analysis",1276914447948
+started,bundle,com.python.pydev.codecompletion,1.5.7.2010050621,"com.python.pydev.codecompletion",1276914447948
+started,bundle,com.python.pydev.refactoring,1.5.7.2010050621,"com.python.pydev.refactoring",1276914447948
+started,bundle,org.python.pydev,1.5.7.2010050621,"org.python.pydev",1276914447948
+started,bundle,org.python.pydev.core,1.5.7.2010050621,"org.python.pydev.core",1276914447948
+started,bundle,org.python.pydev.debug,1.5.7.2010050621,"org.python.pydev.debug",1276914447948
+started,bundle,org.python.pydev.django,1.5.7.2010050621,"org.python.pydev.django",1276914447948
+started,bundle,org.python.pydev.jython,1.5.7.2010050621,"org.python.pydev.jython",1276914447948
+started,bundle,org.python.pydev.parser,1.5.7.2010050621,"org.python.pydev.parser",1276914447948
+started,bundle,org.python.pydev.refactoring,1.5.7.2010050621,"org.python.pydev.refactoring",1276914447948
+os,sysinfo,,,"win32",1276914447956
+arch,sysinfo,,,"x86",1276914447956
+ws,sysinfo,,,"win32",1276914447956
+locale,sysinfo,,,"ko_KR",1276914447956
+processors,sysinfo,,,"2",1276914447956
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1276914447956
+java.runtime.version,sysinfo,,,"1.6.0_20-b02",1276914447956
+java.specification.name,sysinfo,,,"Java Platform API Specification",1276914447956
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1276914447956
+java.specification.version,sysinfo,,,"1.6",1276914447956
+java.vendor,sysinfo,,,"Sun Microsystems Inc.",1276914447956
+java.version,sysinfo,,,"1.6.0_20",1276914447956
+java.vm.info,sysinfo,,,"mixed mode",1276914447956
+java.vm.name,sysinfo,,,"Java HotSpot(TM) Client VM",1276914447956
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1276914447956
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1276914447956
+java.vm.specification.version,sysinfo,,,"1.0",1276914447956
+java.vm.vendor,sysinfo,,,"Sun Microsystems Inc.",1276914447956
+java.vm.version,sysinfo,,,"16.3-b01",1276914447956
+started,bundle,org.eclipse.team.cvs.ui,3.3.202.r35x_20090930-0800,"org.eclipse.team.cvs.ui",1276914448310
+started,bundle,org.eclipse.mylyn.monitor.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.monitor.ui",1276914448392
+started,bundle,org.eclipse.mylyn.commons.net,3.3.0.v20091013-0200-e3x,"org.eclipse.mylyn.commons.net",1276914448565
+started,bundle,org.eclipse.mylyn.commons.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.commons.ui",1276914449684
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.bugzilla.core",1276914450110
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.bugzilla.ui",1276914450432
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1276914451392
+started,bundle,org.eclipse.mylyn.context.core,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.context.core",1276914451476
+closed,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276914451519
+started,bundle,org.eclipse.mylyn.context.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.context.ui",1276914451574
+started,bundle,org.eclipse.mylyn.tasks.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.tasks.ui",1276914451917
+started,bundle,org.eclipse.mylyn.team.ui,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.team.ui",1276914452225
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276914453640
+opened,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276914460641
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276914460837
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914463075
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914468506
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914483889
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914489067
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914493701
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914496582
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.undo",1276914499277
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914502048
+started,bundle,org.eclipse.cdt.core,5.1.2.201002161416,"org.eclipse.cdt.core",1276914505603
+started,bundle,org.eclipse.cdt.core.tests,5.1.2.201002161416,"org.eclipse.cdt.core.tests",1276914505713
+started,bundle,org.eclipse.cdt.debug.core,6.0.0.201002161416,"org.eclipse.cdt.debug.core",1276914505746
+started,bundle,org.eclipse.cdt.debug.ui,6.0.0.201002161416,"org.eclipse.cdt.debug.ui",1276914505777
+started,bundle,org.python.pydev.customizations,1.5.7.2010050621,"org.python.pydev.customizations",1276914505854
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.RunLast",1276914505888
+started,bundle,org.eclipse.cdt.debug.mi.ui,6.0.0.201002161416,"org.eclipse.cdt.debug.mi.ui",1276914507025
+started,bundle,org.eclipse.cdt.debug.mi.core,6.0.0.201002161416,"org.eclipse.cdt.debug.mi.core",1276914507187
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914517452
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914517459
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914517575
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914523049
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914526004
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914528333
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1276914533548
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276914547657
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.RunLast",1276914551837
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1276914555908
+opened,view,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.views.ProblemView",1276914557998
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.eof",1276914559870
+activated,view,org.eclipse.ui.ide,3.5.2.M20100113-0800,"org.eclipse.ui.views.ProblemView",1276914577104
+activated,view,org.eclipse.ui.console,3.4.0.v20090513,"org.eclipse.ui.console.ConsoleView",1276914585611
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276914600531
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.RunLast",1276914610724
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914616793
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914618940
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276914622041
+started,bundle,org.eclipse.compare,3.5.2.r35x_20100113-0800,"org.eclipse.compare",1276914622488
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914629755
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914671325
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.properties",1276914671347
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276914674347
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914683319
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914686923
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914699710
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.RunLast",1276914703719
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1276914707473
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.RunLast",1276914717269
+executed,command,org.eclipse.debug.ui,3.5.2.v20091028_r352,"org.eclipse.debug.ui.commands.RunLast",1276914719549
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914730539
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914730546
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914730679
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914909510
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1276914913433
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.undo",1276914919487
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1276914920910
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1276914921100
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.delete",1276914921230
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276914931891
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914958922
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914958929
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914959044
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276914991894
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915003681
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915009271
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915019502
+executed,command,,,"AUTOGEN:::org.python.pydev.debug.BreakpointRulerActions/org.python.pydev.debug.BreakpointRulerAction",1276915026929
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915036372
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915039926
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915046037
+executed,command,,,"AUTOGEN:::org.python.pydev.debug.BreakpointRulerActions/org.python.pydev.debug.BreakpointRulerAction",1276915048754
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915057541
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915060570
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915061670
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915070192
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915089866
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915092677
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276915098598
+opened,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915098987
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915099356
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915101423
+closed,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915101423
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276915102287
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276915111501
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276915119686
+deactivated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276915122584
+opened,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915124465
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915124600
+activated,workbench,org.eclipse.ui.workbench,3.5.2.M20100113-0800,"",1276915124700
+activated,view,org.python.pydev,1.5.7.2010050621,"org.python.pydev.navigator.view",1276915127525
+opened,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915128158
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915128526
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.selectAll",1276915129786
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1276915130272
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1276915130521
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.copy",1276915130741
+started,bundle,org.eclipse.mylyn.java.tasks,3.3.2.v20100222-0100-e3x,"org.eclipse.mylyn.java.tasks",1276915131261
+activated,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915131618
+closed,editor,org.python.pydev,1.5.7.2010050621,"org.python.pydev.editor.PythonEditor",1276915131619
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.close",1276915131635
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.selectAll",1276915132481
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.edit.paste",1276915132896
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915133413
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915140821
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915146865
+executed,command,org.eclipse.ui,3.5.2.M20100120-0800,"org.eclipse.ui.file.save",1276915160866

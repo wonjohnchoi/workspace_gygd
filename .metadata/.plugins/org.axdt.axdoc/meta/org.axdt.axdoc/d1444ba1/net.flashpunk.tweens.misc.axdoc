@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="misc">
+  <types name="NumTween" type="c">
+    <asdoc>Tweens a numeric value.</asdoc>
+    <members name="value" type="p">
+      <asdoc>The current value.</asdoc>
+    </members>
+  </types>
+  <types name="ColorTween" type="c">
+    <asdoc>Tweens a color's red, green, and blue properties&#xA;independently. Can also tween an alpha value.</asdoc>
+    <members name="color" type="p">
+      <asdoc>The current color.</asdoc>
+    </members>
+  </types>
+  <types name="Alarm" type="c">
+    <asdoc>A simple alarm, useful for timed events, etc.</asdoc>
+    <members name="Alarm" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;duration&#x9;Duration of the alarm.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

@@ -1,0 +1,25 @@
+
+public class Engine {
+	//counter that counts # of turns passed (used to see whose turn is this)
+	protected int counter;
+	
+	protected static final int SIZE = 19;  //size of the board
+	
+	//grid to store info
+	protected char grid[][];
+	
+	public Engine(){
+		counter=0; 
+		grid = new char[SIZE][SIZE];
+	}
+	
+	/**
+	 * fill a specific position with the given sign
+	 * @param row
+	 * @param col
+	 * @param sign
+	 */
+	public void fill(int row, int col, char sign) {
+		grid[row][col] = sign;
+	}
+}

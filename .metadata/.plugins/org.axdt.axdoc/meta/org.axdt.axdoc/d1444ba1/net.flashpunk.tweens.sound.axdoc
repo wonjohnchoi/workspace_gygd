@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="sound">
+  <types name="Fader" type="c">
+    <asdoc>Global volume fader.</asdoc>
+    <members name="Fader" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+  <types name="SfxFader" type="c">
+    <asdoc>Sound effect fader.</asdoc>
+    <members name="SfxFader" type="m">
+      <asdoc>Constructor.&#xA;@param&#x9;sfx&#x9;&#x9;&#x9;The Sfx object to alter.&#xA;@param&#x9;complete&#x9;Optional completion callback.&#xA;@param&#x9;type&#x9;&#x9;Tween type.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

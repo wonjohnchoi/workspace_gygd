@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:axdoc="http://axdt.org/axdoc" name="source /16_MineCraft/src" url="platform:/resource/16_MineCraft/src" rootType="SOURCE">
+  <entries name="Assets" type="c">
+    <entries name="square_red" type="p"/>
+  </entries>
+  <entries name="Main" type="c">
+    <entries name="Main" type="m"/>
+  </entries>
+  <reference href="root-package.axdoc#source /16_MineCraft/src"/>
+  <indexes name="net">
+    <indexes name="flashpunk">
+      <entries name="Tween" type="c">
+        <entries name="PERSIST" type="p"/>
+      </entries>
+      <entries name="Mask" type="c">
+        <entries name="parent" type="p"/>
+      </entries>
+      <entries name="Entity" type="c">
+        <entries name="visible" type="p"/>
+      </entries>
+      <entries name="Sfx" type="c">
+        <entries name="complete" type="p"/>
+      </entries>
+      <entries name="Tweener" type="c">
+        <entries name="active" type="p"/>
+      </entries>
+      <entries name="Graphic" type="c">
+        <entries name="active" type="p"/>
+      </entries>
+      <reference href="net.flashpunk.axdoc#flashpunk"/>
+      <indexes name="graphics">
+        <entries name="Stamp" type="c">
+          <entries name="Stamp" type="m"/>
+        </entries>
+        <entries name="Spritemap" type="c">
+          <entries name="complete" type="p"/>
+        </entries>
+        <entries name="TiledImage" type="c">
+          <entries name="TiledImage" type="m"/>
+        </entries>
+        <entries name="Text" type="c">
+          <entries name="font" type="p"/>
+        </entries>
+        <entries name="Emitter" type="c">
+          <entries name="Emitter" type="m"/>
+        </entries>
+        <entries name="Image" type="c">
+          <entries name="angle" type="p"/>
+        </entries>
+        <entries name="Backdrop" type="c">
+          <entries name="Backdrop" type="m"/>
+        </entries>
+        <entries name="Anim" type="c">
+          <entries name="Anim" type="m"/>
+        </entries>
+        <entries name="PreRotation" type="c">
+          <entries name="frameAngle" type="p"/>
+        </entries>
+        <entries name="Particle" type="c">
+          <entries name="Particle" type="m"/>
+        </entries>
+        <entries name="ParticleType" type="c">
+          <entries name="ParticleType" type="m"/>
+        </entries>
+        <entries name="TiledSpritemap" type="c">
+          <entries name="TiledSpritemap" type="m"/>
+        </entries>
+        <reference href="net.flashpunk.graphics.axdoc#graphics"/>
+      </indexes>
+      <indexes name="tweens">
+        <indexes name="sound">
+          <entries name="Fader" type="c">
+            <entries name="Fader" type="m"/>
+          </entries>
+          <entries name="SfxFader" type="c">
+            <entries name="SfxFader" type="m"/>
+          </entries>
+          <reference href="net.flashpunk.tweens.sound.axdoc#sound"/>
+        </indexes>
+        <indexes name="motion">
+          <entries name="LinearMotion" type="c">
+            <entries name="LinearMotion" type="m"/>
+          </entries>
+          <entries name="CircularMotion" type="c">
+            <entries name="CircularMotion" type="m"/>
+          </entries>
+          <entries name="QuadMotion" type="c">
+            <entries name="QuadMotion" type="m"/>
+          </entries>
+          <entries name="CubicMotion" type="c">
+            <entries name="CubicMotion" type="m"/>
+          </entries>
+          <entries name="Motion" type="c">
+            <entries name="x" type="p"/>
+          </entries>
+          <reference href="net.flashpunk.tweens.motion.axdoc#motion"/>
+        </indexes>
+        <indexes name="misc">
+          <entries name="NumTween" type="c">
+            <entries name="value" type="p"/>
+          </entries>
+          <entries name="ColorTween" type="c">
+            <entries name="color" type="p"/>
+          </entries>
+          <entries name="Alarm" type="c">
+            <entries name="Alarm" type="m"/>
+          </entries>
+          <reference href="net.flashpunk.tweens.misc.axdoc#misc"/>
+        </indexes>
+      </indexes>
+      <indexes name="masks">
+        <entries name="Grid" type="c">
+          <entries name="usePositions" type="p"/>
+        </entries>
+        <entries name="Pixelmask" type="c">
+          <entries name="threshold" type="p"/>
+        </entries>
+        <entries name="Hitbox" type="c">
+          <entries name="Hitbox" type="m"/>
+        </entries>
+        <reference href="net.flashpunk.masks.axdoc#masks"/>
+      </indexes>
+      <indexes name="utils">
+        <entries name="Draw" type="c">
+          <entries name="blend" type="p"/>
+        </entries>
+        <entries name="Ease" type="c">
+          <entries name="quadIn" type="m"/>
+        </entries>
+        <entries name="Key" type="c">
+          <entries name="ANY" type="p"/>
+        </entries>
+        <entries name="Data" type="c">
+          <entries name="id" type="p"/>
+        </entries>
+        <reference href="net.flashpunk.utils.axdoc#utils"/>
+      </indexes>
+    </indexes>
+  </indexes>
+  <indexes name="worlds">
+    <entries name="Game" type="c">
+      <entries name="player" type="p"/>
+    </entries>
+    <reference href="worlds.axdoc#worlds"/>
+  </indexes>
+  <indexes name="entities">
+    <entries name="Mine" type="c">
+      <entries name="SPRITE_WIDTH" type="p"/>
+    </entries>
+    <entries name="Explosion" type="c">
+      <entries name="lifeTime" type="p"/>
+    </entries>
+    <entries name="MovingItem" type="c">
+      <entries name="paused" type="p"/>
+    </entries>
+    <entries name="Player" type="c">
+      <entries name="SPRITE_WIDTH" type="p"/>
+    </entries>
+    <entries name="Enemy" type="c">
+      <entries name="SPRITE_WIDTH" type="p"/>
+    </entries>
+    <entries name="Item" type="c">
+      <entries name="destroyed" type="p"/>
+    </entries>
+    <reference href="entities.axdoc#entities"/>
+  </indexes>
+  <indexes name="util">
+    <entries name="Math2D" type="c">
+      <entries name="getDist" type="m"/>
+    </entries>
+    <reference href="util.axdoc#util"/>
+  </indexes>
+</axdoc:AXRoot>

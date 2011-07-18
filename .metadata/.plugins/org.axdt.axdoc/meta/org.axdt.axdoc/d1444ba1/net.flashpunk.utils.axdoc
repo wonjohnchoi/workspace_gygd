@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="utils">
+  <types name="Draw" type="c">
+    <asdoc>Static class with access to miscellanious drawing functions.&#xA;These functions are not meant to replace Graphic components&#xA;for Entities, but rather to help with testing and debugging.</asdoc>
+    <members name="blend" type="p">
+      <asdoc>The blending mode used by Draw functions. This will not&#xA;apply to Draw.line(), but will apply to Draw.linePlus().</asdoc>
+    </members>
+  </types>
+  <types name="Ease" type="c">
+    <asdoc>Static class with useful easer functions that can be used by Tweens.</asdoc>
+    <members name="quadIn" type="m">
+      <asdoc>Quadratic in.</asdoc>
+    </members>
+  </types>
+  <types name="Key" type="c">
+    <asdoc>Contains static key constants to be used by Input.</asdoc>
+    <members name="ANY" type="p"/>
+  </types>
+  <types name="Data" type="c">
+    <asdoc>Static helper class used for saving and loading data from stored cookies.</asdoc>
+    <members name="id" type="p">
+      <asdoc>If you want to share data between different SWFs on the same host, use this id.</asdoc>
+    </members>
+  </types>
+</axdoc:AXPackage>

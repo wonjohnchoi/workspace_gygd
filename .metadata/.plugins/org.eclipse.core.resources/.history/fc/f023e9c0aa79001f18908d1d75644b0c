@@ -1,0 +1,7 @@
+'''
+Created on 2010. 6. 17.
+
+@author: user
+'''
+i = [str(x) for x in range(20)]
+print("".join(i))

@@ -1,0 +1,6 @@
+'''
+Created on 2010. 6. 17.
+
+@author: user
+'''
+i = [x in range(20)]

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="util">
+  <types name="Math2D" type="c">
+    <asdoc>...&#xA;@author Wonjohn Choi</asdoc>
+    <members name="getDist" type="m"/>
+  </types>
+</axdoc:AXPackage>

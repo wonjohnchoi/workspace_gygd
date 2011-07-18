@@ -1,0 +1,17 @@
+/*
+ * Test.cpp
+ *
+ *  Created on: 2010. 6. 17.
+ *      Author: user
+ */
+
+#include "Test.h"
+
+Test::Test() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Test::~Test() {
+	// TODO Auto-generated destructor stub
+}

@@ -1,0 +1,17 @@
+1281919711360	Move compilation unit
+1281962359482	Rename package 'gygd.choi.pentris'
+1281962481830	Rename type 'ButtonChooser'
+1282002790001	Rename package 'Pentris'
+1282259437471	Rename local variable 'includingBlankLine'
+1282260335805	Move file
+1282260341920	Move compilation unit
+1282339426754	Move method
+1282339853095	Rename field 'pentris'
+1282339886792	Rename field 'board'
+1282339913343	Rename type 'Board'
+1282340309196	Move method
+1282340314355	Move method
+1282341460863	Move method
+1282403085573	Rename field 'nTotalRemovedLines'
+1282403185770	Rename field 'info'
+1282405534646	Rename type 'GameBoard'

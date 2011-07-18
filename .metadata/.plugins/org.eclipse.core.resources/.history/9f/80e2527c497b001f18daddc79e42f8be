@@ -1,0 +1,17 @@
+'''
+Created on 2010. 6. 19.
+
+@author: Wonjohn Choi
+'''
+
+class fraction():
+    def __init__(self, numerator, denominator):
+        common = GCD(numerator, denominator)
+        self.numerator=numerator
+        self.denominator=denominator
+    def GCD(self, x, y):
+        if x==0: return y
+        if y==0: return x
+        if y>x: return GCD(x,y-x)
+        if x>y: return GCD(x-y,y)
+        if x==y: return x

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<axdoc:AXPackage xmlns:axdoc="http://axdt.org/axdoc" name="entities">
+  <types name="Mine" type="c">
+    <members name="SPRITE_WIDTH" type="p">
+      <asdoc>Define Width and Height of sprite</asdoc>
+    </members>
+  </types>
+  <types name="Explosion" type="c">
+    <asdoc>...&#xA;@author Wonjohn Choi</asdoc>
+    <members name="lifeTime" type="p"/>
+  </types>
+  <types name="MovingItem" type="c">
+    <members name="paused" type="p"/>
+  </types>
+  <types name="Player" type="c">
+    <members name="SPRITE_WIDTH" type="p"/>
+  </types>
+  <types name="Enemy" type="c">
+    <members name="SPRITE_WIDTH" type="p"/>
+  </types>
+  <types name="Item" type="c">
+    <asdoc>...&#xA;@author Wonjohn Choi</asdoc>
+    <members name="destroyed" type="p"/>
+  </types>
+</axdoc:AXPackage>

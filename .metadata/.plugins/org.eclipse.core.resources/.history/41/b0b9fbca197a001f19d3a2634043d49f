@@ -1,0 +1,14 @@
+/*
+ * Tste.cpp
+ *
+ *  Created on: Jun 17, 2010
+ *      Author: 74455031
+ */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+	string x = "Hello";
+	cout<<x[0]<<endl;
+}

@@ -1,0 +1,6 @@
+1288888764186	Extract method 'onBtnCurrentTime'
+1288888811421	Extract method 'onBtnCountDown'
+1288888848530	Extract method 'onBtnOnOff'
+1288888899795	Extract method 'onBtnCountUp'
+1288888923185	Move method
+1288888925373	Move method

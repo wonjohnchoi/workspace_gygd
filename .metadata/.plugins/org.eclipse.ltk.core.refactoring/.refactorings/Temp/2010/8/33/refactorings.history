@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 1 elements(s) to &apos;Temp/IncompleteUnusedClasses&apos;&#x0D;&#x0A;- Original project: &apos;Temp&apos;&#x0D;&#x0A;- Destination element: &apos;Temp/IncompleteUnusedClasses&apos;&#x0D;&#x0A;- Original element: &apos;ElefantHuntMap.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" destination="/IncompleteUnusedClasses" element1="ElefantHuntMap.java" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1281342350688" units="0" version="1.0"/>
+</session>

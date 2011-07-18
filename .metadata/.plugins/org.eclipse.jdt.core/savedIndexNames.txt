@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\backup\USB - cur\Develop\eclipse\workspace_gygd\.metadata\.plugins\org.eclipse.jdt.core
+148416995.index
+4015650978.index
+318618229.index

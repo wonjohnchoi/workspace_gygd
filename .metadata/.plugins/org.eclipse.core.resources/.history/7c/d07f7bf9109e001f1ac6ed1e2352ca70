@@ -1,0 +1,73 @@
+import java.awt.GridLayout;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+/**
+ * 
+ * @author Wonjohn Choi
+ *
+ */
+public class GUI implements ActionListener{
+	protected JFrame frame;  //frame that manages the whole GUI.
+	protected JButton[][] buttonGrid;  //array to store each button
+	protected static final int SIZE = Engine.SIZE;  //size of the board
+	protected Engine engine;
+	protected boolean isFinished = false;
+	
+	/**
+	 * constructor: create 19 * 19 grid that each and every section is sensible to the mouse click.
+	 */
+	public GUI(){
+		engine = new Engine();
+		
+		frame = new JFrame("*Name will be added!!");
+		frame.setLayout(new GridLayout(SIZE, SIZE));
+		
+		buttonGrid = new JButton[SIZE][SIZE];
+		
+		for(int row=0;row<SIZE;row++){
+			for(int col=0;col<SIZE;col++){
+				buttonGrid[row][col] = new JButton();
+				frame.add(buttonGrid[row][col]);
+				buttonGrid[row][col].addActionListener(this);
+			}
+		}
+		
+		frame.setSize(900, 900);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setVisible(true);
+	}
+
+	/**
+	 * when a mouse clicked a button,
+	 */
+	public void actionPerformed(ActionEvent e) {
+		//get the button
+		JButton clicked = (JButton) e.getSource();
+		
+		for(int row=0;row<SIZE;row++){
+			for(int col=0;col<SIZE;col++){
+				if(clicked == buttonGrid[row][col]){
+					engine.fill(row, col);
+				}
+			}
+		}
+		
+		isFinished = engine.isFinished();
+		
+		if(isFinished) {
+			
+		}
+	}
+	
+	/**
+	 * main method to test the application
+	 * @param args
+	 */
+	public static void main(String args[]){
+		new GUI();
+	}
+}
